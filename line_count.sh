@@ -2,7 +2,7 @@
 
 file_path=/home/centos/shell-script/if.sh
 
-if [ $file_path -f ]
+if [ -f $file_path ];
 then
     line_count=(wc-l "$file_path")
     echo "$file has $line_count lines"
