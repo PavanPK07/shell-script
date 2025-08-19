@@ -19,12 +19,12 @@ else
     echo "Installing MySQL is SUCCESS"
 fi
 
-yum install git -y
+yum install nginx -y
 
 if [ $? -ne 0 ]
 then
-    echo "ERROR:: Installing GIT is failed"
+    echo "ERROR:: Installing nginx is failed"
     exit 1
 else
-    echo "Installing GIT is SUCCESS"
+    echo "Installing nginx is SUCCESS"
 fi
