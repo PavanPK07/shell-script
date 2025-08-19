@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dir_path='\home\centos\shell-script'
+dir_path=\home\centos\shell-script
 
 read $dir_path
 
