@@ -2,11 +2,11 @@
 
 echo "enter statement:"
 
-read Statement
+read statement
 
-if [[ $Statement =~ "AEIOUaeiou" ]];
+if [[ $statement =~ [AEIOUaeiou] ]];
 then
-    echo "$Statement has vowels in it"
+    echo "$statement has vowels in it"
 else 
-    echo "no vowels in $Statement"]
+    echo "no vowels in $statement"]
 fi
