@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {1..12..2}
+for i in {0..12..2}
     do
         echo "even nums: $i"
     done
