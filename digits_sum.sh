@@ -2,10 +2,10 @@
 
 echo "enter a number"
 read Num
-Num=$n
+n=Num
 sum=0
 
-while [ $n -ge 0 ]
+while [ $n -gt 0 ]
 do
     digit=$(( n % 10 ))
     sum=$(( sum + digit ))
