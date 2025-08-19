@@ -1,5 +1,6 @@
 #!/bin/bash
-Date=$date
+
+Date=$(date)
 Name=Pavan
 echo "name is $Name "
 echo "date and time $Date"
