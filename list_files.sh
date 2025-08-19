@@ -8,7 +8,7 @@ then
     echo "listing files in $dir_path"
     ls -lh "$dir_path"
 else
-    echo "error"
+    echo "ERROR: $dir_path is not a valid directory"
     exit 1
 fi    
 
