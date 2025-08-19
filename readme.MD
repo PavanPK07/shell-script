@@ -1,0 +1,1 @@
+Purpose: Display the entire file contents directly to the terminal.
