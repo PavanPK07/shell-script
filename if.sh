@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'enter number'
-read $number
+read number
 
 if [ $number -le 10 ]
 then 
