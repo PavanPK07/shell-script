@@ -1,6 +1,6 @@
 #!/bin/bash
 
-list = (madam level radar github amazon)
+list=(madam level radar github amazon)
 for item in ${list[@]}
 do 
     reversed = echo ("$item | rev")
