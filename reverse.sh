@@ -3,8 +3,10 @@
 echo "enter number: "
 
 read num
+
+n=$num
+
 rev=o
-n = $num
 
 while [ $n -gt 0 ]
 do
