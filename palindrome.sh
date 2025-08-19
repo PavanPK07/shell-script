@@ -9,5 +9,7 @@ do
     if [ "$word" = "$reversed" ]
     then
         echo "$word is a palindrome"
+    else
+        echo "$word is not a palindrome"
     fi
 done
