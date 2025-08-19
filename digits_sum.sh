@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo "enter a number"
+echo "Enter a number:"
 read Num
-n=Num
+
+n=$Num    
 sum=0
 
 while [ $n -gt 0 ]
 do
-    digit=$(( n % 10 ))
-    sum=$(( sum + digit ))
-    n=$(( n / 10 ))
-done
+    digit=$(( n % 10 ))     
+    sum=$(( sum + digit ))  
+    n=$(( n / 10 ))         
 
-echo " sum of digits of $Num is $sum "
+echo "Sum of digits of $Num is: $sum"
