@@ -4,7 +4,7 @@ echo "enter statement:"
 
 read Statement
 
-if [ $Statement =~ "AEIOUaeiou" ];
+if [[ $Statement =~ "AEIOUaeiou" ]];
 then
     echo "$Statement has vowels in it"
 else 
