@@ -1,4 +1,4 @@
 #!/bin/bash
 
 Name=Pavan
-echo"name is $Name"
+echo "name is $Name"
