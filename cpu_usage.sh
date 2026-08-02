@@ -11,3 +11,4 @@ do
         echo "$(date) - HIGH CPU USAGE: PID=$pid, CMD=$cmd, CPU=$cpu%" >> "$log_file"
     fi
 done
+#adding new line of code
